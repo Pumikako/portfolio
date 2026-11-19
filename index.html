@@ -2,12 +2,561 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Data Analytics Portfolio</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of Stefano Marchiori, a Data Analyst based in Amsterdam."
+    >
+
+    <title>Stefano Marchiori | Data Analyst</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <h1>My Data Analytics Portfolio</h1>
-    <p>Website under construction.</p>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#home">
+                Stefano Marchiori
+                <span>Data Analyst</span>
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                Menu
+            </button>
+
+            <div class="navigation-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow">Data Analyst · Amsterdam</p>
+
+                <h1>
+                    Stefano
+                    <span>Marchiori</span>
+                </h1>
+
+                <p class="hero-description">
+                    Multilingual data analyst combining technical analysis,
+                    business development and international customer-facing
+                    experience.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        View projects
+                    </a>
+
+                    <a class="button button-secondary" href="#contact">
+                        Get in touch
+                    </a>
+
+                    <a
+                        class="button button-text"
+                        href="Stefano_Marchiori_CV.pdf"
+                        download
+                    >
+                        Download CV ↓
+                    </a>
+                </div>
+            </div>
+
+            <div class="tool-panel reveal" aria-label="Core technical tools">
+                <div class="tool-panel-grid"></div>
+
+                <div class="tool-panel-circle">
+                    <div class="tool">
+                        <strong>Python</strong>
+                        <span>Data analysis</span>
+                    </div>
+
+                    <div class="tool">
+                        <strong>SQL</strong>
+                        <span>Data retrieval</span>
+                    </div>
+
+                    <div class="tool">
+                        <strong>Tableau</strong>
+                        <span>Data visualization</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-white" id="about">
+            <div class="section-heading reveal">
+                <p class="section-number">01</p>
+
+                <div>
+                    <p class="eyebrow">About</p>
+                    <h2>A business-aware approach to data</h2>
+                </div>
+            </div>
+
+            <div class="about-layout">
+                <div class="about-introduction reveal">
+                    <p class="large-text">
+                        I approach data analysis with the perspective of someone
+                        who has worked directly with customers, international
+                        markets and business development.
+                    </p>
+
+                    <p>
+                        After working in hospitality and customer-facing roles,
+                        I moved into business development for the German-speaking
+                        market at WPSEO AI. This experience strengthened my
+                        understanding of customer needs, communication and
+                        commercial decision-making.
+                    </p>
+
+                    <p>
+                        I completed an intensive Data Analytics bootcamp at
+                        Ironhack Amsterdam, developing practical skills in
+                        Python, SQL, statistics, Tableau, machine learning and
+                        interactive dashboard development.
+                    </p>
+                </div>
+
+                <div class="background-card reveal">
+                    <p class="card-label">Professional background</p>
+
+                    <h3>Business Development Representative</h3>
+
+                    <p class="background-company">
+                        WPSEO AI · May–July 2026
+                    </p>
+
+                    <ul>
+                        <li>
+                            Developed business opportunities across
+                            German-speaking markets.
+                        </li>
+
+                        <li>
+                            Used HubSpot to manage prospect outreach,
+                            follow-ups and the sales pipeline.
+                        </li>
+
+                        <li>
+                            Booked approximately 20 prospect meetings per month.
+                        </li>
+
+                        <li>
+                            Worked with AI-driven SEO, GEO and web visibility
+                            solutions.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="language-strip reveal">
+                <div>
+                    <strong>Italian</strong>
+                    <span>Native</span>
+                </div>
+
+                <div>
+                    <strong>Portuguese</strong>
+                    <span>Native</span>
+                </div>
+
+                <div>
+                    <strong>English</strong>
+                    <span>Fluent</span>
+                </div>
+
+                <div>
+                    <strong>German</strong>
+                    <span>Fluent</span>
+                </div>
+
+                <div>
+                    <strong>Spanish</strong>
+                    <span>Fluent</span>
+                </div>
+
+                <div>
+                    <strong>Dutch</strong>
+                    <span>Basic</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="skills">
+            <div class="section-heading reveal">
+                <p class="section-number">02</p>
+
+                <div>
+                    <p class="eyebrow">Skills</p>
+                    <h2>Technical and business toolkit</h2>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-group reveal">
+                    <p class="card-label">Data analysis</p>
+                    <h3>Analysis & Statistics</h3>
+
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>SQL</span>
+                        <span>MySQL</span>
+                        <span>Data Cleaning</span>
+                        <span>EDA</span>
+                        <span>Statistics</span>
+                        <span>Hypothesis Testing</span>
+                    </div>
+                </article>
+
+                <article class="skill-group reveal">
+                    <p class="card-label">Visualization</p>
+                    <h3>Dashboards & Applications</h3>
+
+                    <div class="skill-tags">
+                        <span>Tableau</span>
+                        <span>Streamlit</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Altair</span>
+                        <span>PyDeck</span>
+                        <span>Jupyter Notebook</span>
+                    </div>
+                </article>
+
+                <article class="skill-group reveal">
+                    <p class="card-label">Data applications</p>
+                    <h3>Machine Learning & Data Collection</h3>
+
+                    <div class="skill-tags">
+                        <span>Scikit-learn</span>
+                        <span>Machine Learning</span>
+                        <span>APIs</span>
+                        <span>Web Scraping</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+                </article>
+
+                <article class="skill-group reveal">
+                    <p class="card-label">Geospatial & business</p>
+                    <h3>Applied Skills</h3>
+
+                    <div class="skill-tags">
+                        <span>GeoJSON</span>
+                        <span>Shapely</span>
+                        <span>PyProj</span>
+                        <span>HubSpot</span>
+                        <span>Business Development</span>
+                        <span>SEO & GEO</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-white" id="projects">
+            <div class="section-heading reveal">
+                <p class="section-number">03</p>
+
+                <div>
+                    <p class="eyebrow">Projects</p>
+                    <h2>Selected data projects</h2>
+                </div>
+            </div>
+
+            <div class="projects-list">
+                <article class="project-card featured-project reveal">
+                    <div class="project-visual">
+                        <span class="project-index">01</span>
+                        <p>Featured project</p>
+                        <strong>Amsterdam</strong>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="card-label">Python · Streamlit · Geospatial</p>
+
+                        <h3>Amsterdam Business Explorer</h3>
+
+                        <p>
+                            An interactive dashboard for exploring Amsterdam’s
+                            business composition, population, geographic zones
+                            and commercial rent indicators.
+                        </p>
+
+                        <p>
+                            The application combines multiple datasets with
+                            interactive maps, filters, KPI cards and geographic
+                            comparisons to make local business patterns easier
+                            to investigate.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Streamlit</span>
+                            <span>Altair</span>
+                            <span>PyDeck</span>
+                            <span>GeoJSON</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/Pumikako/Ams-dash"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual project-visual-gray">
+                        <span class="project-index">02</span>
+                        <p>Experiment analysis</p>
+                        <strong>A/B</strong>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="card-label">
+                            Python · Statistics · Hypothesis Testing
+                        </p>
+
+                        <h3>Vanguard A/B Test Analysis</h3>
+
+                        <p>
+                            An analysis of a digital process redesign comparing
+                            user behaviour between a control group and a test
+                            group.
+                        </p>
+
+                        <p>
+                            The project applies data cleaning, exploratory
+                            analysis and statistical testing to evaluate
+                            completion behaviour, process efficiency and user
+                            errors.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Seaborn</span>
+                            <span>Hypothesis Testing</span>
+                            <span>Tableau</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/Pumikako/slytherin"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual">
+                        <span class="project-index">03</span>
+                        <p>Data cleaning & EDA</p>
+                        <strong>Sharks</strong>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="card-label">Python · Pandas · EDA</p>
+
+                        <h3>Global Shark Attack Analysis</h3>
+
+                        <p>
+                            Data cleaning and exploratory analysis of the Global
+                            Shark Attack dataset, examining activities,
+                            countries and fatality patterns.
+                        </p>
+
+                        <p>
+                            The project transformed more than 7,000 historical
+                            records and tested three hypotheses while clearly
+                            documenting data limitations and reporting bias.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Data Cleaning</span>
+                            <span>EDA</span>
+                            <span>Jupyter</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/Pumikako/data-cleaning-pandas"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual project-visual-gray">
+                        <span class="project-index">04</span>
+                        <p>Exploratory analysis</p>
+                        <strong>AI</strong>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="card-label">Python · Pandas · Matplotlib</p>
+
+                        <h3>Impact of AI on Society</h3>
+
+                        <p>
+                            An exploratory data analysis investigating the
+                            relationship between artificial intelligence,
+                            employment and wider social change.
+                        </p>
+
+                        <p>
+                            The project uses Python-based data preparation and
+                            visual analysis to examine patterns within the
+                            available dataset.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/Pumikako/Impact-of-Ai-on-Society"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View on GitHub ↗
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="education">
+            <div class="section-heading reveal">
+                <p class="section-number">04</p>
+
+                <div>
+                    <p class="eyebrow">Education</p>
+                    <h2>Education & certification</h2>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <p class="timeline-date">
+                        September–November 2026 · Amsterdam
+                    </p>
+
+                    <h3>Data Analytics Bootcamp</h3>
+                    <p class="timeline-organization">Ironhack</p>
+
+                    <p>
+                        Intensive nine-week program covering Python, SQL,
+                        statistics, Tableau, machine learning and applied data
+                        projects.
+                    </p>
+
+                    <p class="status-label">
+                        Graduation certificate pending issuance
+                    </p>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <p class="timeline-date">Bardolino, Italy</p>
+
+                    <h3>Higher Education Program in Hospitality Marketing</h3>
+                    <p class="timeline-organization">
+                        ITS Academy Turismo Veneto
+                    </p>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <p class="timeline-date">Italy</p>
+
+                    <h3>Tourism & Hospitality Diploma</h3>
+                    <p class="timeline-organization">
+                        Technical Institute for Tourism
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-content reveal">
+                <p class="eyebrow">Contact</p>
+
+                <h2>Let’s turn data into clear decisions.</h2>
+
+                <p>
+                    I am open to Data Analyst opportunities in Amsterdam,
+                    the Netherlands and international environments.
+                </p>
+
+                <a
+                    class="contact-email"
+                    href="mailto:stefano.marchiori1010@gmail.com"
+                >
+                    stefano.marchiori1010@gmail.com
+                </a>
+
+                <div class="contact-links">
+                    <a
+                        href="https://github.com/Pumikako"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+
+                    <!--
+                    Add LinkedIn, Tableau Public and Streamlit here
+                    only when the correct URLs are available.
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="current-year"></span> Stefano Marchiori</p>
+        <p>Data Analyst · Amsterdam</p>
+    </footer>
 </body>
 </html>
